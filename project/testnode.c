@@ -101,5 +101,6 @@ int main() {
     return 0;
 
 }
-
-\\ 메인 프로그램 사진촬영 및 진동감지
+// 메인 프로그램 사진촬영 및 진동감지 밑은 실행방법
+// gcc testnode.c -o project -lcurl -lwiringPi 
+// ./project
