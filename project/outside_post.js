@@ -11,7 +11,7 @@ myHeaders.append("Content-Type", "application/vnd.onem2m-res+json; ty=4");
 
 
 var fs = require('fs');
-var enc_str = fs.readFileSync('outside.jpeg', {encoding: 'base64'});
+var enc_str = fs.readFileSync('1.jpeg', {encoding: 'base64'});
 var raw = "{\"m2m:cin\": {\"con\": \"" + enc_str + "\"}}";
 
 var requestOptions = {
