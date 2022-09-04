@@ -210,6 +210,6 @@ int main(int argc, char** argv) {
 
 }
 // 코드 실행방법
- // g++ -Wall -o prog SimpleHX711Test.cpp -lhx711 -llgpio -lcurl
+ // g++ -Wall -o prog project_hx711.cpp -lhx711 -llgpio -lcurl
 
  // ./prog 13 19 -370 -367471
